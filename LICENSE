@@ -1,0 +1,40 @@
+Xiaoke Desktop Pet (小克桌宠)
+
+1. Scripts, configuration and voice recordings
+
+The scripts (*.ps1, art/cut.py), the configuration (config.json), the text
+prompts (art/prompts/) and the voice recordings (voice/) in this repository are
+licensed under the Creative Commons Attribution-NonCommercial 4.0 International
+License (CC BY-NC 4.0).
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format
+  - Adapt: remix, transform, and build upon the material
+Under the following terms:
+  - Attribution: you must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial: you may not use the material for commercial purposes.
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+2. Character artwork (art/frames/)
+
+The character is a popular fan-made anthropomorphic "Claude" design from the
+Chinese community; it is not original to this repository and the rights to the
+original design belong to its creator. The frames here are a fan redraw of that
+design and are NOT covered by the license above. They are shared for personal,
+non-commercial use only. If you are the original creator and object, please
+open an issue and they will be removed.
+
+3. Trademark
+
+This is an unofficial fan project, not affiliated with or endorsed by Anthropic.
+"Claude" is a trademark of Anthropic.
+
+------------------------------------------------------------------------------
+一、脚本、配置、出图提示词和配音采用 知识共享 署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）：
+    可以自由转载、修改、再分发，但须注明出处，且不得用于商业目的。
+二、角色形象来自中文社区流行的 Claude 拟人形象，非本仓库原创，原设定版权归原作者。art/frames/ 中的
+    动画帧是该形象的二次创作，不在上述 CC 授权范围内，仅供个人、非商业交流使用；原作者如有异议请提
+    issue，我们会删除。
+三、本项目为粉丝制作的非官方项目，与 Anthropic 无关。Claude 是 Anthropic 的商标。

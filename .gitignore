@@ -1,0 +1,9 @@
+# runtime state written by the pet and the hooks
+state/
+fired.log
+hooks-snippet.json
+config.bak*.json
+__pycache__/
+# 4K sprite sheets are large; keep them out unless you want to re-cut frames
+art/sheet-*.png
+art/sheet-*.json

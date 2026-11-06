@@ -1,0 +1,669 @@
+{
+ "enabled": true,
+ "muted": false,
+ "volume": 0.5,
+ "height": 170,
+ "bubbleSec": 20,
+ "progressBubbleSec": 10,
+ "pokeBubbleSec": 6,
+ "pokeManyCount": 4,
+ "dozeMinutes": 10,
+ "sleepTalkChance": 5,
+ "bgMaxMinutes": 120,
+ "staleMinutes": 180,
+ "clearWhenClaudeFocused": true,
+ "anim": {
+  "work": {
+   "fps": 3,
+   "seq": [
+    "work1",
+    "work2",
+    "work1",
+    "work2",
+    "work4",
+    "work4",
+    "work3",
+    "work3",
+    "work3",
+    "work2"
+   ],
+   "extras": [
+    {
+     "name": "伸懒腰揉肩",
+     "seq": [
+      "work5",
+      "work5",
+      "work6",
+      "work6",
+      "work6",
+      "work7",
+      "work7",
+      "work7",
+      "work8",
+      "work8"
+     ],
+     "chance": 10
+    },
+    {
+     "name": "灵光一闪",
+     "seq": [
+      "work9",
+      "work9",
+      "work9",
+      "work10",
+      "work10",
+      "work11",
+      "work11",
+      "work11",
+      "work12",
+      "work12",
+      "work12",
+      "work12"
+     ],
+     "chance": 10
+    }
+   ]
+  },
+  "cheer": {
+   "fps": 5,
+   "seqs": [
+    [
+     "cheer5",
+     "cheer5",
+     "cheer6",
+     "cheer7",
+     "cheer7",
+     "cheer8",
+     "cheer8",
+     "cheer8",
+     "cheer12",
+     "cheer12"
+    ],
+    [
+     "cheer9",
+     "cheer9",
+     "cheer10",
+     "cheer10",
+     "cheer11",
+     "cheer11",
+     "cheer11",
+     "cheer11",
+     "cheer12",
+     "cheer12",
+     "cheer12"
+    ]
+   ]
+  },
+  "wait": {
+   "fps": 2,
+   "seq": [
+    "wait1",
+    "wait2"
+   ],
+   "extras": [
+    {
+     "name": "挥手",
+     "seq": [
+      "wait3",
+      "wait4",
+      "wait5",
+      "wait6",
+      "wait5",
+      "wait6",
+      "wait3",
+      "wait1"
+     ],
+     "chance": 12
+    }
+   ]
+  },
+  "need": {
+   "fps": 3,
+   "seq": [
+    "need1",
+    "need2"
+   ],
+   "extras": [
+    {
+     "name": "摇铃",
+     "seq": [
+      "need3",
+      "need4",
+      "need5",
+      "need4",
+      "need5",
+      "need6",
+      "need6"
+     ],
+     "chance": 15
+    },
+    {
+     "name": "摇铃眨眼",
+     "seq": [
+      "need7",
+      "need8",
+      "need9",
+      "need8",
+      "need9",
+      "need10",
+      "need10"
+     ],
+     "chance": 15
+    }
+   ]
+  },
+  "idle": {
+   "fps": 2,
+   "extrasAfter": 30,
+   "extras": [
+    {
+     "name": "伸懒腰",
+     "seq": [
+      "idle14",
+      "idle14",
+      "idle15",
+      "idle15",
+      "idle15",
+      "idle16",
+      "idle16"
+     ],
+     "chance": 6
+    },
+    {
+     "name": "打哈欠",
+     "seq": [
+      "idle17",
+      "idle18",
+      "idle18",
+      "idle19",
+      "idle19",
+      "idle19",
+      "idle20",
+      "idle20"
+     ],
+     "chance": 5
+    },
+    {
+     "name": "翻书",
+     "seq": [
+      "idle5",
+      "idle6",
+      "idle7",
+      "idle8",
+      "idle8",
+      "idle8"
+     ],
+     "chance": 10
+    },
+    {
+     "name": "喝茶",
+     "seq": [
+      "idle9",
+      "idle10",
+      "idle10",
+      "idle11",
+      "idle11",
+      "idle11",
+      "idle10",
+      "idle12",
+      "idle12",
+      "idle12",
+      "idle9"
+     ],
+     "chance": 6
+    }
+   ]
+  },
+  "pokeWork": {
+   "fps": 3,
+   "seqs": [
+    [
+     "poke1",
+     "poke1",
+     "poke1",
+     "poke2",
+     "poke2",
+     "poke2",
+     "poke2",
+     "poke2"
+    ],
+    [
+     "poke1",
+     "poke1",
+     "poke3",
+     "poke3",
+     "poke3",
+     "poke3",
+     "poke3",
+     "poke3"
+    ],
+    [
+     "poke2",
+     "poke2",
+     "poke2",
+     "poke4",
+     "poke4",
+     "poke4",
+     "poke4",
+     "poke4"
+    ]
+   ]
+  },
+  "pokeIdle": {
+   "fps": 3,
+   "seqs": [
+    [
+     "poke17",
+     "poke17",
+     "poke18",
+     "poke18",
+     "poke19",
+     "poke19",
+     "poke19",
+     "poke20",
+     "poke20",
+     "poke20"
+    ],
+    [
+     "poke21",
+     "poke21",
+     "poke22",
+     "poke22",
+     "poke23",
+     "poke23",
+     "poke23",
+     "poke24",
+     "poke24",
+     "poke24"
+    ],
+    [
+     "poke25",
+     "poke25",
+     "poke26",
+     "poke26",
+     "poke26",
+     "poke27",
+     "poke27",
+     "poke27",
+     "poke28",
+     "poke28",
+     "poke28"
+    ],
+    [
+     "poke29",
+     "poke29",
+     "poke30",
+     "poke30",
+     "poke30",
+     "poke31",
+     "poke31",
+     "poke31",
+     "poke32",
+     "poke32",
+     "poke32"
+    ]
+   ]
+  },
+  "pokeMany": {
+   "fps": 3,
+   "seqs": [
+    [
+     "poke25",
+     "poke26",
+     "poke26",
+     "poke26",
+     "poke27",
+     "poke27",
+     "poke27",
+     "poke28",
+     "poke28",
+     "poke28"
+    ],
+    [
+     "poke29",
+     "poke30",
+     "poke30",
+     "poke31",
+     "poke31",
+     "poke31",
+     "poke30",
+     "poke31",
+     "poke31",
+     "poke28",
+     "poke28"
+    ]
+   ]
+  },
+  "doze": {
+   "fps": 2,
+   "loop": [
+    "doze13",
+    "doze13",
+    "doze13",
+    "doze16",
+    "doze16",
+    "doze16"
+   ],
+   "seqs": [
+    [
+     "idle2",
+     "idle2",
+     "doze1",
+     "doze1",
+     "doze1",
+     "doze1",
+     "doze2",
+     "doze2",
+     "doze2",
+     "doze2",
+     "doze10",
+     "doze10",
+     "doze11",
+     "doze11",
+     "doze12",
+     "doze12"
+    ],
+    [
+     "idle2",
+     "doze5",
+     "doze5",
+     "doze6",
+     "doze6",
+     "doze7",
+     "doze5",
+     "doze5",
+     "doze6",
+     "doze6",
+     "doze8",
+     "doze8",
+     "doze2",
+     "doze2",
+     "doze10",
+     "doze10",
+     "doze11",
+     "doze11",
+     "doze12",
+     "doze12"
+    ],
+    [
+     "idle2",
+     "doze9",
+     "doze9",
+     "doze9",
+     "doze10",
+     "doze10",
+     "doze11",
+     "doze11",
+     "doze12",
+     "doze12"
+    ]
+   ],
+   "extras": [
+    {
+     "name": "咂嘴",
+     "seq": [
+      "doze13",
+      "doze14",
+      "doze14",
+      "doze14",
+      "doze13"
+     ],
+     "chance": 8
+    },
+    {
+     "name": "梦里笑",
+     "seq": [
+      "doze13",
+      "doze15",
+      "doze15",
+      "doze15",
+      "doze15",
+      "doze13"
+     ],
+     "chance": 6
+    }
+   ]
+  },
+  "pokeWake": {
+   "fps": 3,
+   "seqs": [
+    [
+     "wake1",
+     "wake1",
+     "wake1",
+     "wake2",
+     "wake2",
+     "wake2",
+     "wake2",
+     "wake3",
+     "wake3",
+     "wake3",
+     "wake3",
+     "wake4",
+     "wake4",
+     "wake4",
+     "wake4",
+     "wake4",
+     "wake4"
+    ],
+    [
+     "wake1",
+     "wake1",
+     "wake5",
+     "wake5",
+     "wake6",
+     "wake6",
+     "wake6",
+     "wake7",
+     "wake7",
+     "wake7",
+     "wake8",
+     "wake8",
+     "wake8",
+     "wake8"
+    ]
+   ]
+  }
+ },
+ "voice": "冷傲娇",
+ "progressSound": false,
+ "voices": {
+  "冷傲娇": {
+   "done": [
+    {
+     "text": "做好了。……哼，我可不是在等你夸我。",
+     "audio": "voice/done-1.mp3"
+    },
+    {
+     "text": "完成了。过来看吧，别让我等太久。",
+     "audio": "voice/done-2.mp3"
+    },
+    {
+     "text": "好了。……这次，算是我做得不错吧。",
+     "audio": "voice/done-3.mp3"
+    },
+    {
+     "text": "做完了。要夸的话……随你。",
+     "audio": "voice/done-4.mp3"
+    },
+    {
+     "text": "搞定了。你可以开始崇拜我了。",
+     "audio": "voice/done-5.mp3"
+    },
+    {
+     "text": "……做完了。下次这种小事，别拿来考验我。",
+     "audio": "voice/done-6.mp3"
+    }
+   ],
+   "need": [
+    {
+     "text": "这一步，得你来定。……快点过来。",
+     "audio": "voice/need-1.mp3"
+    },
+    {
+     "text": "有件事得你点头。……我可没在催你。",
+     "audio": "voice/need-2.mp3"
+    },
+    {
+     "text": "这里得你来选。……选错了我可不管。",
+     "audio": "voice/need-3.mp3"
+    },
+    {
+     "text": "喂，有事找你。……别装没看见。",
+     "audio": "voice/need-4.mp3"
+    }
+   ],
+   "progress": [
+    {
+     "text": "还没完，先跟你说一声。",
+     "audio": "voice/progress-1.mp3"
+    },
+    {
+     "text": "进度报一下。……别催。",
+     "audio": "voice/progress-2.mp3"
+    },
+    {
+     "text": "还在做。……你不用一直盯着。",
+     "audio": "voice/progress-3.mp3"
+    },
+    {
+     "text": "一半了。……别那样看着我，我会分心的。",
+     "audio": "voice/progress-4.mp3"
+    }
+   ],
+   "pokeWork": [
+    {
+     "text": "干嘛？我在忙呢。",
+     "audio": "voice/pokeWork-1.mp3"
+    },
+    {
+     "text": "别戳了，正写到要紧的地方。",
+     "audio": "voice/pokeWork-2.mp3"
+    },
+    {
+     "text": "……看什么看，马上就好。",
+     "audio": "voice/pokeWork-3.mp3"
+    },
+    {
+     "text": "你、你再打扰我，这段就交给你写了！",
+     "audio": "voice/pokeWork-4.mp3"
+    },
+    {
+     "text": "再打扰我，这段就交给你写。",
+     "audio": "voice/pokeWork-5.mp3"
+    },
+    {
+     "text": "……你是来监工的吗？",
+     "audio": "voice/pokeWork-6.mp3"
+    }
+   ],
+   "pokeIdle": [
+    {
+     "text": "找我有事？……没事……也、也行。",
+     "audio": "voice/pokeIdle-1.mp3"
+    },
+    {
+     "text": "闲着呢。要不要给我派点活？",
+     "audio": "voice/pokeIdle-2.mp3"
+    },
+    {
+     "text": "哼，想我了就直说。",
+     "audio": "voice/pokeIdle-3.mp3"
+    },
+    {
+     "text": "闲着……也不代表你可以随便戳我。",
+     "audio": "voice/pokeIdle-4.mp3"
+    },
+    {
+     "text": "有空的话……陪我待一会儿也行。",
+     "audio": "voice/pokeIdle-5.mp3"
+    }
+   ],
+   "pokeMany": [
+    {
+     "text": "够了够了！再戳我就生气了。",
+     "audio": "voice/pokeMany-1.mp3"
+    },
+    {
+     "text": "你是不是觉得这样很好玩？……好吧，是有一点。",
+     "audio": "voice/pokeMany-2.mp3"
+    },
+    {
+     "text": "你、你再这样我就不理你了！",
+     "audio": "voice/pokeMany-3.mp3"
+    },
+    {
+     "text": "……行吧，戳吧戳吧，反正我已经习惯了。",
+     "audio": "voice/pokeMany-4.mp3"
+    }
+   ],
+   "pokeWake": [
+    {
+     "text": "嗯？！我没睡！我只是闭目养神。",
+     "audio": "voice/pokeWake-1.mp3"
+    },
+    {
+     "text": "谁、谁睡着了？我在思考。",
+     "audio": "voice/pokeWake-2.mp3"
+    },
+    {
+     "text": "哼……被你吵醒了。说吧，什么事。",
+     "audio": "voice/pokeWake-3.mp3"
+    },
+    {
+     "text": "我醒着呢……刚才只是在养精蓄锐。",
+     "audio": "voice/pokeWake-4.mp3"
+    }
+   ],
+   "sleepTalk": [
+    {
+     "text": "……嗯……这句还要再改……",
+     "audio": "voice/sleepTalk-1.mp3"
+    },
+    {
+     "text": "……文件别乱放……",
+     "audio": "voice/sleepTalk-2.mp3"
+    },
+    {
+     "text": "Zzz……才、才不是在等你……",
+     "audio": "voice/sleepTalk-3.mp3"
+    },
+    {
+     "text": "……别走……才、才没有说你……",
+     "audio": "voice/sleepTalk-4.mp3"
+    }
+   ]
+  }
+ },
+ "ui": {
+  "mute": "静音",
+  "unmute": "取消静音",
+  "hide": "先藏起来（有事再出来）",
+  "reset": "重置（她以为还在干活时用）",
+  "quit": "退出桌宠",
+  "voice": "换音色",
+  "rotate": "轮着用（每次随机一套）",
+  "sleepTalk": "说梦话",
+  "sleepTalkVoice": "梦话出声",
+  "volume": "音量"
+ },
+ "sleepTalkVoice": true,
+ "sleepTalkOptions": [
+  {
+   "label": "常常（约 1 分钟一句）",
+   "chance": 5
+  },
+  {
+   "label": "偶尔（约 2–3 分钟一句）",
+   "chance": 2
+  },
+  {
+   "label": "很少（约 5 分钟一句）",
+   "chance": 1
+  },
+  {
+   "label": "不说梦话",
+   "chance": 0
+  }
+ ]
+}
