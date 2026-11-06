@@ -166,7 +166,9 @@ function Working {
   $now = [DateTime]::UtcNow.Ticks; $stale = [TimeSpan]::FromMinutes([double]$script:cfg.staleMinutes).Ticks
   foreach ($f in Get-ChildItem -LiteralPath $sessDir -Filter '*.json') {
     try { $s = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8 | ConvertFrom-Json } catch { continue }
-    if ($s.state -eq 'work' -and ($now - [long]$s.t) -lt $stale) { return $true }
+    # 'need' = mid-turn, waiting on a permission prompt or a question. Answering it fires no hook, so the
+    # session stays 'need' while Claude carries on working until Stop -> count it as working (2026-11-06)
+    if (($s.state -eq 'work' -or $s.state -eq 'need') -and ($now - [long]$s.t) -lt $stale) { return $true }
   }
   return $false
 }
